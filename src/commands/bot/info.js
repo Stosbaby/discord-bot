@@ -32,7 +32,7 @@ module.exports = async (client, interaction, args) => {
       },
       {
         name: "🔧┆Bot developer",
-        value: `<@!922120042651451423> - @uoaio`,
+        value: `<@449655224559337492>`,
         inline: true,
       },
       {
@@ -94,12 +94,7 @@ module.exports = async (client, interaction, args) => {
         name: "💾┆Bot memory",
         value: `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}\` MB`,
         inline: true,
-      },
-      {
-        name: "🔗┆Links",
-        value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite})`,
-        inline: false,
-      }],
+      },],
     type: 'editreply'
   }, interaction)
 
