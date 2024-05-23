@@ -23,11 +23,11 @@ module.exports = async (client, interaction, args) => {
                     },
                     {
                         name: `❓┆What can I do here?`,
-                        value: `- Meet new people! \n- Play many fun games! \n- Discover the seasons! \n- Participate in events! \nAnd…. Last but not least, choose your own roles at <#847867992044994561>!`,
+                        value: `- Meet new people! \n- Play many fun games! \n- Discover the seasons! \n- Participate in events! \nAnd…. Last but not least, choose your own roles at <#1086673938412732556>!`,
                     },
                     {
                         name: `🎫┆How do I get help when needed?`,
-                        value: `You can make a ticket in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
+                        value: `You can create a thread in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
                     },
                     {
                         name: `⚙️┆I want to help Bot Hangout to improve!`,
@@ -259,7 +259,7 @@ module.exports = async (client, interaction, args) => {
                     },
                     {
                         name: `🎫┆How do I get help when needed?`,
-                        value: `You can make a ticket in <#820308164322656327>! We are happy to help you with your questions here and offer support in your server!`,
+                        value: `You can make a ticket in <#797781758841847810>! We are happy to help you with your questions here and offer support in your server!`,
                     }
                 ]
             }, interaction.channel)
